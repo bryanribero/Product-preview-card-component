@@ -77,7 +77,7 @@ button{
     cursor: pointer;
 }
 
-@media(min-width: 745px){
+@media(min-width: 375px){
     .card{
         display: flex;
         max-width: none;
