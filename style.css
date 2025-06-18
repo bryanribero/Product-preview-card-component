@@ -64,6 +64,11 @@ del{
     margin-left: 1.25em;
 } 
 
+.cash,
+del {
+    font-family: "Fraunces", sans-serif, serif;
+}
+
 button{
     all: unset;
     display: flex;
@@ -77,12 +82,13 @@ button{
     cursor: pointer;
 }
 
-@media(min-width: 375px){
+
+@media(min-width: 745px){
     .card{
         display: flex;
         max-width: none;
         width: 43em;
-        height: 28.5em;
+        height: 29em;
     }
     .card figure,
     .card .content{
@@ -99,7 +105,7 @@ button{
         max-width: 16em;
     }
     .content{
-        gap: 1.2em;
+        gap: 1em;
     }
     button{
         transition: all .2s ease-in-out;
