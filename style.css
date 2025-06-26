@@ -20,7 +20,7 @@ main{
 }
 
 .card{
-    max-width: 23.5em;
+    max-width: 24.5em;
     background-color: hsl(0, 0%, 100%);
     border-radius: 8px;
     overflow: hidden;
@@ -56,6 +56,11 @@ h1{
     font-weight: 700;
 }
 
+p{
+    line-height: 1.8;
+    max-width: 20.5em;
+}
+
 .container-cash{
     display: flex;
     align-items: center;
@@ -78,9 +83,10 @@ button{
     gap: 0.75em;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
-    height: 3.5em;
+    padding: 1.3em;
     border-radius: 8px;
     cursor: pointer;
+    font-weight: 700;
 }
 
 
@@ -88,8 +94,11 @@ button{
     .card{
         display: flex;
         max-width: none;
-        width: 43em;
-        height: 29em;
+        width: 47em;
+        height: 36em;
+    }
+    .content{
+        padding: 2em;
     }
     .card figure,
     .card .content{
@@ -106,7 +115,7 @@ button{
         max-width: 16em;
     }
     .content{
-        gap: 1em;
+        gap: 2em;
     }
     button{
         transition: all .2s ease-in-out;
