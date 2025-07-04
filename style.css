@@ -119,6 +119,15 @@ button{
   p{
     max-width: 16rem;
   }
+  button{
+    transition: all .3s ease;
+  }
+  button:hover{
+    background-color: hsl(158, 42%, 18%);
+  }
+  button:active{
+    transform: scale(.98);
+  }
 }
 
 
